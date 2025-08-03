@@ -1,3 +1,5 @@
+![总图](https://github.com/chaoticjoy/oci-help-telegram/blob/main/pic/1.PNG)
+
 # OCI Help Telegram 机器人使用指南
 
 `oci-help-telegram` 是一个基于 `lemoex/oci-help` 项目开发的 Telegram 机器人，允许用户通过 Telegram 界面管理和操作 Oracle Cloud Infrastructure (OCI) 实例。
@@ -52,6 +54,10 @@
     *   在 Telegram 中搜索并打开您创建的机器人聊天窗口。
     *   发送 `/start` 命令启动机器人。如果您的 Chat ID 配置正确，机器人会显示欢迎信息和主菜单。
 2.  **主菜单操作:**
+   
+ ![主菜单](https://github.com/chaoticjoy/oci-help-telegram/blob/main/pic/2.PNG)
+ ![测活](https://github.com/chaoticjoy/oci-help-telegram/blob/main/pic/3.PNG)
+ 
     *   机器人启动后会显示一个 Inline Keyboard（内联键盘）菜单，提供以下主要功能：
         *   **列出实例 **: 查看当前账户下所有实例的状态。
         *   **管理引导卷**: 查看和管理引导卷。
@@ -61,7 +67,10 @@
         *   **重新加载配置**: 重新加载 `oci-help.ini` 配置文件，无需重启机器人。
         *   **执行命令 **: 执行在配置文件 `cmd` 项中预设的或直接输入的系统命令（谨慎使用）。
         *   **查看日志 **: 查看机器人运行的部分日志输出。
-3.  **实例管理:**
+4.  **实例管理:**
+   
+   ![实例管理](https://github.com/chaoticjoy/oci-help-telegram/blob/main/pic/6.PNG)
+   
     *   点击 "列出实例" 后，会显示实例列表。
     *   点击某个实例，可以进入该实例的详情页面。
     *   在实例详情页，通常可以进行以下操作（具体取决于实例状态）：
@@ -73,18 +82,29 @@
         *   升级/降级 - 需要实例处于停止状态。
         *   修改名称
         *   配置 Oracle Cloud Agent 插件 
-4.  **引导卷管理:**
+6.  **引导卷管理:**
+   
+    ![引导卷管理](https://github.com/chaoticjoy/oci-help-telegram/blob/main/pic/8.PNG)
+    
     *   点击 "管理引导卷" 后，会显示引导卷列表。
     *   点击某个引导卷，可以进入该引导卷的详情页面。
     *   在引导卷详情页，通常可以进行以下操作：
         *   修改性能 
         *   修改大小
         *   终止引导卷 
-5.  **批量创建实例:**
+9.  **批量创建实例:**
+    
+   ![创建实例](https://github.com/chaoticjoy/oci-help-telegram/blob/main/pic/7.PNG)
+
     *   点击主菜单中的 "创建实例"
     *   选择一个配置好的租户账户。
     *   从该账户下配置的实例模板中选择一个开始创建。
     *   创建过程将在后台任务中运行，可以通过 "查看运行中的任务" 来监控进度。
+
+11.  **任务管理:**
+  
+![任务管理](https://github.com/chaoticjoy/oci-help-telegram/blob/main/pic/4.PNG)
+![任务管理2](https://github.com/chaoticjoy/oci-help-telegram/blob/main/pic/5.PNG)
 
 ## 注意事项
 
